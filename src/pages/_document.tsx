@@ -11,7 +11,7 @@ class DreitageDocument extends Document {
           <link rel='preconnect' href='https://fonts.googleapis.com' />
           <link rel='preconnect' href='https://fonts.gstatic.com' />
           <link
-            href='https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:wght@100;400&display=swap'
+            href='https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Open+Sans:wght@300&display=swap'
             rel='stylesheet'
           />
         </Head>

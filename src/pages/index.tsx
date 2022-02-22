@@ -1,13 +1,17 @@
 import { NextPage } from 'next'
 import { Heading, Text } from '@chakra-ui/react'
 
-const Home: NextPage = () => {
+import { Me, Greeting } from '../components'
+
+const Page: NextPage = () => {
   return (
     <>
-      <Heading>Nothing</Heading>
+      <Heading>Hi there, I&apos;m Stefan alias dreitagebart</Heading>
       <Text>Thank you for nothing</Text>
+      <Greeting></Greeting>
+      <Me></Me>
     </>
   )
 }
 
-export default Home
+export default Page
