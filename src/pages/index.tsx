@@ -1,16 +1,13 @@
 import { NextPage } from 'next'
-import { Heading, Text } from '@chakra-ui/react'
+import { Box, Heading, Text } from '@chakra-ui/react'
 
-import { Me, Greeting } from '../components'
+import { Intro } from '../components'
 
 const Page: NextPage = () => {
   return (
-    <>
-      <Heading>Hi there, I&apos;m Stefan alias dreitagebart</Heading>
-      <Text>Thank you for nothing</Text>
-      <Greeting></Greeting>
-      <Me></Me>
-    </>
+    // <Box width='100%' border='1px solid blue' height='100%'>
+    <Intro></Intro>
+    // </Box>
   )
 }
 

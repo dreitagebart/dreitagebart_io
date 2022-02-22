@@ -422,20 +422,21 @@ export const Eyes = styled.div`
 `
 
 export const Character = styled.div`
-  width: 400px;
+  width: 100%;
   height: 800px;
-  left: 50%;
-  top: 0;
-  margin-left: -200px;
+  /* left: 0; */
+  /* top: 0; */
+  transform: scale(0.8);
+  /* margin-left: -200px; */
   background-size: 750px;
-  position: relative;
+  /* position: relative; */
   display: block;
   cursor: pointer;
 
   @media only screen and (max-width: 600px) {
     & {
       transform: scale(0.7);
-      top: -120px;
+      /* top: -120px; */
     }
   }
 `

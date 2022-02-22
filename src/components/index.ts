@@ -1,6 +1,5 @@
 export * from './Layout'
-export * from './Me'
-export * from './Greeting'
+export * from './Intro'
 export * from './Navigation'
 export * from './Menu'
 export * from './Highlighter'
